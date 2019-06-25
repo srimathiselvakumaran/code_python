@@ -1,5 +1,5 @@
-in= input()
-if((in >= 'a' and in <= 'z') or (in >='A' and in <= 'Z')):
+ai=str(input())
+if ai.isalpha()== True:
   print("Alphabet")
 else:
   print("No")
