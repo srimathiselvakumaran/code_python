@@ -2,8 +2,8 @@ a=input()
 b=input()
 c=input()
 if a > b and a > c:
-    Print(a)
+     print(a)
 elif b > a and b > c:
-    print(b)
+     print(b)
 else:
-    print(c)
+     print(c)
