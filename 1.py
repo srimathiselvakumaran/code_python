@@ -4,4 +4,4 @@ if(n==0):
 elif(n<0):
   print("Negative")
 else:
-  print("Postive")
+  print("Positive")
