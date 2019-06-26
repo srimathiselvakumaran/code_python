@@ -1,5 +1,5 @@
 n=int(input())
 s=0
-for i in range(o,n+1):
+for i in range(0,n+1):
 	s=s+i
-print (i)
+print (s)
