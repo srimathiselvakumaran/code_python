@@ -1,6 +1,4 @@
-a=int(input())
-b=int(input())
-c1=int(input())
+a,b,c1=map(int,input().split())
 if a>b or a>c1:
   print(a)
 elif b>c1:
