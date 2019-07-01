@@ -1,16 +1,16 @@
-num=int(input())
+num1=int(input())
 sum=0
 count=0
-temp=num
-while temp>0:
+temp1=num1
+while temp1>0:
   count=count+1
-  temp=temp//10
-temp=num
-while temp>0:
-  reminder=temp%10
+  temp1=temp1//10
+temp1=num1
+while temp1>0:
+  reminder=temp1%10
   sum=sum+(reminder**count)
-  temp//=10
-if num==sum:
+  temp1//=10
+if num1==sum:
   print("yes")
 else:
   print("no")
