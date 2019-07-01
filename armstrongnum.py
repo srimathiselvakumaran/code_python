@@ -1,12 +1,16 @@
-num =int(input())
-temp=num
+num=int(input())
 sum=0
-while(num!=0):
-	dig=num%10
-	cube=dig*dig*dig
-	sum=sum+cube
-	num=num//10
-if(temp==num):
-	print("yes")
+count=0
+temp=num
+while temp>0:
+  count=count+1
+  temp=temp//10
+temp=num
+while temp>0:
+  reminder=temp%10
+  sum=sum+(reminder**count)
+  temp//=10
+if num==sum:
+  print("yes")
 else:
-	print("no")
+  print("no")
