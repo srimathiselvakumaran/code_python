@@ -1,7 +1,7 @@
 num =int(input())
-sum=0
 temp=num
-if(num!=0):
+sum=0
+while(num!=0):
 	dig=num%10
 	cube=dig*dig*dig
 	sum=sum+cube
