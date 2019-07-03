@@ -1,2 +1,2 @@
-s1=input()
-print(s1.count(".")+1)
+sr1=input()
+print(sr1.count(".")+1)
