@@ -1,2 +1,2 @@
-n1=str(input())
-print(len(n1.split()))
+ss1=str(input())
+print(len(ss1.split()))
