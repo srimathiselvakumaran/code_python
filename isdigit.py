@@ -1,5 +1,8 @@
-st=input()
-if st.isdigit():
-  print("Yes")
-else:
-  print("No")
+def c(r):
+  try:
+    float(r)
+    print("Yes")
+  except:
+    print("No")
+r=input()
+c(r)
