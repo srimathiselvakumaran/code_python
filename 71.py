@@ -1,5 +1,5 @@
 a=input()
-r1=inter[::-1]
+r1=a[::-1]
 if(a==r1):
     print("yes")
 else:
